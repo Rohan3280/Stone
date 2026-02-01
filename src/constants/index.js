@@ -29,45 +29,54 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
+  service1,
+  service2,
+  service3,
   slack,
   sliders04,
   telegram,
   twitter,
   yourlogo,
+  kandlaGrey,
+  kotaBlackLimestone,
+  tandurYellowLimestone,
+  lpYellow,
+  mintFossil,
+  rajGreenPaving,
+  sagarBlack,
+  rippon,
+  camelDust,
+  qualityControl,
+  manufacturingUnit,
+  packingUnit,
+  delivery,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Company",
+    url: "#company",
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "Products",
+    url: "#products",
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "Infrastructure",
+    url: "#infrastructure",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
+    title: "Projects",
+    url: "#projects",
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
+    title: "Contact",
+    url: "#contact",
   },
 ];
 
@@ -77,72 +86,140 @@ export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
-export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
-];
-
-export const brainwaveServicesIcons = [
-  recording03,
-  recording01,
-  disc02,
-  chromecast,
-  sliders04,
-];
-
-export const roadmap = [
+export const heroCarouselItems = [
   {
     id: "0",
-    title: "Voice recognition",
-    text: "Enable the chatbot to understand and respond to voice commands, making it easier for users to interact with the app hands-free.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap1,
+    title: "KANDLA GREY",
+    subtitle: "FOR A BEAUTIFUL BACKYARD",
+    image: kandlaGrey,
+  },
+  {
+    id: "1",
+    title: "KOTA BLACK LIMESTONE",
+    subtitle: "FOR A STUNNING KITCHEN FLOORING",
+    image: kotaBlackLimestone,
+  },
+  {
+    id: "2",
+    title: "SAGAR BLACK",
+    subtitle: "FOR A MAGNIFICENT FLOORING JOB",
+    image: sagarBlack,
+  },
+  {
+    id: "3",
+    title: "MINT FOSSIL",
+    subtitle: "FOR UNMATCHED AESTHETICAL APPEAL",
+    image: mintFossil,
+  },
+  {
+    id: "4",
+    title: "TANDUR YELLOW LIMESTONE",
+    subtitle: "FOR ELEGANT INTERIOR DESIGNS",
+    image: tandurYellowLimestone,
+  },
+  {
+    id: "5",
+    title: "L.P. YELLOW",
+    subtitle: "FOR PREMIUM CONSTRUCTION PROJECTS",
+    image: lpYellow,
+  },
+];
+
+export const stoneProducts = [
+  {
+    id: "0",
+    name: "KANDLA GREY",
+    description: "Beautiful natural sandstone for outdoor and indoor applications",
+    image: kandlaGrey,
+  },
+  {
+    id: "1",
+    name: "KOTA BLACK LIMESTONE",
+    description: "Premium limestone for stunning kitchen flooring and walls",
+    image: kotaBlackLimestone,
+  },
+  {
+    id: "2",
+    name: "TANDUR YELLOW LIMESTONE",
+    description: "Durable limestone with unmatched aesthetical appeal",
+    image: tandurYellowLimestone,
+  },
+  {
+    id: "3",
+    name: "Slate",
+    description: "Magnificent slate for elegant flooring and roofing",
+    image: service1,
+  },
+  {
+    id: "4",
+    name: "Marble",
+    description: "Luxurious marble for premium interior designs",
+    image: service2,
+  },
+  {
+    id: "5",
+    name: "Basalt",
+    description: "Strong black basalt for modern architectural projects",
+    image: service3,
+  },
+];
+
+export const stoneTypes = [
+  { id: "0", name: "KANDLA GREY", image: kandlaGrey },
+  { id: "1", name: "KOTA BLACK LIMESTONE", image: kotaBlackLimestone },
+  { id: "2", name: "TANDUR YELLOW LIMESTONE", image: tandurYellowLimestone },
+  { id: "3", name: "L.P. YELLOW", image: lpYellow },
+  { id: "4", name: "MINT FOSSIL", image: mintFossil },
+  { id: "5", name: "RAJ GREEN PAVING", image: rajGreenPaving },
+  { id: "6", name: "SAGAR BLACK", image: sagarBlack },
+  { id: "7", name: "RIPPON", image: rippon },
+  { id: "8", name: "CAMEL DUST", image: camelDust },
+];
+
+export const infrastructure = [
+  {
+    id: "0",
+    title: "Quality Control",
+    text: "We are strict about quality. Our aim is to manufacture and deliver natural stone products with zero defects.",
+    imageUrl: qualityControl,
     colorful: true,
   },
   {
     id: "1",
-    title: "Gamification",
-    text: "Add game-like elements, such as badges or leaderboards, to incentivize users to engage with the chatbot more frequently.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap2,
+    title: "Manufacturing Unit",
+    text: "Our state-of-the-art manufacturing unit helps us process different types of natural stones precisely and efficiently.",
+    imageUrl: manufacturingUnit,
   },
   {
     id: "2",
-    title: "Chatbot customization",
-    text: "Allow users to customize the chatbot's appearance and behavior, making it more engaging and fun to interact with.",
-    date: "May 2023",
-    status: "done",
-    imageUrl: roadmap3,
+    title: "Packing Unit",
+    text: "We follow globally-accepted packing standards to keep all our consignments safe and secure during transit.",
+    imageUrl: packingUnit,
   },
   {
     id: "3",
-    title: "Integration with APIs",
-    text: "Allow the chatbot to access external data sources, such as weather APIs or news APIs, to provide more relevant recommendations.",
-    date: "May 2023",
-    status: "progress",
-    imageUrl: roadmap4,
+    title: "Delivery",
+    text: "We have very effective transportation and shipping facilities that ensure all deliveries happen on time.",
+    imageUrl: delivery,
   },
 ];
 
-export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+export const companyText =
+  "Prime Stone Exports is one of the leading manufacturers, exporters, suppliers, and wholesalers of Indian natural stones, such as granite, marble, sandstone, slate, quartzite, limestone, and stone articles.";
 
-export const collabContent = [
+export const companyContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: collabText,
+    title: "Wide Variety",
+    text: companyText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Integrity",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Customized Approach",
   },
 ];
 
@@ -205,92 +282,77 @@ export const collabApps = [
   },
 ];
 
-export const pricing = [
+export const testimonials = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
+    text: "We're working with Prime Stone Exports since 2007 and we are more than satisfied with their service in terms of communications, customer care, follow-up, problem-solving and claim settlement as well as shipment performance.",
+    author: "International Client",
+    location: "USA",
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
-    features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
-    ],
+    text: "It is rare to find a company in India that understands the quality requirements of United States customers, and also, a company that provides clear and detailed communication at every step of the supply process.",
+    author: "International Client",
+    location: "USA",
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
-    features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
-    ],
+    text: "We already work 15+ years with Prime Stone Exports. Following our experience with this company, we can say that we've hired a correct company. We always receive good quality material and the service is excellent.",
+    author: "International Client",
+    location: "Europe",
   },
 ];
 
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Premium Quality",
+    text: "We are strict about quality. Our aim is to manufacture and deliver natural stone products with zero defects.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: kandlaGrey,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Wide Variety",
+    text: "Extensive range of natural stones including sandstone, limestone, quartzite, slate, marble, and basalt.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: kotaBlackLimestone,
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Global Export",
+    text: "Exporting premium natural stones to customers worldwide including USA, Europe, Australia, and more.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: tandurYellowLimestone,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Timely Delivery",
+    text: "Effective transportation and shipping facilities ensuring all deliveries happen on time, every time.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: mintFossil,
     light: true,
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Custom Solutions",
+    text: "Customized approach to meet your specific requirements with various finishes, sizes, and shapes.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: sagarBlack,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "ISO Certified",
+    text: "Leading ISO certified stone company in India, recognized for quality, integrity, and excellence.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: rajGreenPaving,
   },
 ];
 

@@ -75,6 +75,27 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 
+// Stone Images
+import kandlaGrey from "./stone_images/Kandla Grey.jpg";
+import kotaBlackLimestone from "./stone_images/Kota Black Limestone.JPG";
+import tandurYellowLimestone from "./stone_images/Tandur Yellow Limestone.JPG";
+import lpYellow from "./stone_images/L.P. Yellow.jpg";
+import mintFossil from "./stone_images/Mint Fossil.jpg";
+import rajGreenPaving from "./stone_images/Raj Green paving pic.JPG";
+import sagarBlack from "./stone_images/Sagar Black.jpg";
+import rippon from "./stone_images/Rippon.jpg";
+import camelDust from "./stone_images/Camel dust.jpg";
+
+// Supporting Images
+import qualityControl from "./Support_Images/Quality_Control.jpg";
+import manufacturingUnit from "./Support_Images/Manufacturing_Unit.jpeg";
+import packingUnit from "./Support_Images/Packing_Unit.jpeg";
+import delivery from "./Support_Images/Delivery.jpg";
+
+// Logo and Icons
+import companyLogo from "./Logo/Logo.png";
+import browserIcon from "./Logo/browser_Icon.png";
+
 export {
   brainwave,
   check,
@@ -144,4 +165,19 @@ export {
   instagram,
   telegram,
   twitter,
+  kandlaGrey,
+  kotaBlackLimestone,
+  tandurYellowLimestone,
+  lpYellow,
+  mintFossil,
+  rajGreenPaving,
+  sagarBlack,
+  rippon,
+  camelDust,
+  qualityControl,
+  manufacturingUnit,
+  packingUnit,
+  delivery,
+  companyLogo,
+  browserIcon,
 };

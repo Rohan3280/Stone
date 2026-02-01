@@ -11,13 +11,14 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          title="ONE-STOP PREMIUM STONE SOLUTIONS PROVIDER"
+          text="Quality Control, Manufacturing Unit, Packing Unit, and Delivery - We ensure excellence at every step"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] group"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
@@ -43,10 +44,10 @@ const Benefits = () => {
               {item.light && <GradientLight />}
 
               <div
-                className="absolute inset-0.5 bg-n-8"
+                className="absolute inset-0.5 bg-white group-hover:bg-transparent transition-colors"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                <div className="absolute inset-0 opacity-0 group-hover:opacity-30 transition-opacity duration-300">
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}
