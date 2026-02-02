@@ -10,19 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="h6 mb-4 text-n-1">HEAD OFFICE</h3>
             <p className="body-2 text-n-4 mb-2">
-              Property No -1, Lane No-2, Westend Marg,
-            </p>
-            <p className="body-2 text-n-4 mb-2">
-              Near- Gate No-2, Saket metro station
-            </p>
-            <p className="body-2 text-n-4 mb-2">
-              Saidulajab, New Delhi – 110030 India
-            </p>
-            <p className="body-2 text-n-4 mb-2">
-              <strong>Office:</strong> + 91-11-49863625
-            </p>
-            <p className="body-2 text-n-4 mb-2">
-              <strong>Mob:</strong> + 91 – 9910066990
+              Kota, Rajasthan, India
             </p>
             <p className="body-2 text-n-4">
               <strong>Email:</strong> info@primestoneexports.com
@@ -30,26 +18,14 @@ const Footer = () => {
           </div>
           <div>
             <h3 className="h6 mb-4 text-n-1">SOUTH INDIA FACTORY</h3>
-            <p className="body-2 text-n-4 mb-2">
-              Plot No -52 & 53, Gundlapalli Growth,
-            </p>
-            <p className="body-2 text-n-4 mb-2">
-              Center Maddipadu, Prakasam,
-            </p>
             <p className="body-2 text-n-4">
-              Andhra Pradesh, 523211 India
+              Prakasam, Andhra Pradesh, 523211 India
             </p>
           </div>
           <div>
             <h3 className="h6 mb-4 text-n-1">NORTH INDIA FACTORY</h3>
-            <p className="body-2 text-n-4 mb-2">
-              H 36 Riico industrial area
-            </p>
-            <p className="body-2 text-n-4 mb-2">
-              Hattipura Bundi-323001,
-            </p>
             <p className="body-2 text-n-4 mb-4">
-              Rajasthan, India
+              Kota, Rajasthan, India
             </p>
             <p className="caption text-n-4">
               Minimum order quantity: 1 container (approximately 4,000 sq. ft).
